@@ -38,7 +38,7 @@ $(document).ready(function () {
         for (var i = 0; i <= 14; i++) {
 
             divGalleryImgs.innerHTML += `<div class="gallery-item col-md-2" style="margin-bottom: 24px">
-                                            <img class="gallery-item-img" src="/assets/img/gallery/${id}/${i}.jpg" alt="">
+                                            <img class="gallery-item-img" src="assets/img/gallery/${id}/${i}.jpg" alt="">
                                         </div>`;
 
         }
@@ -48,7 +48,7 @@ $(document).ready(function () {
     const galleryItems = document.querySelectorAll(".gallery-item");
     galleryItems.forEach((item, i) => {
         item.addEventListener("click", () => {
-            galModalImg.innerHTML = `<img style="width: 100%;" src="/assets/img/gallery/${movieId}/${i}.jpg" alt="">`;
+            galModalImg.innerHTML = `<img style="width: 100%;" src="assets/img/gallery/${movieId}/${i}.jpg" alt="">`;
             galleryModal.show();
         });
     });
