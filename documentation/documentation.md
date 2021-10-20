@@ -57,34 +57,33 @@ La página cuenta con 3 vistas diferentes, las cuales son:
 A continuación se presentarán las vistas actuales de dichos archivos.
 
 ### Index
-  ![image info](./img/index1.png)
+  ![image info](./img/index1.PNG)
 
-  ![image info](./img/index2.png)
+  ![image info](./img/index2.PNG)
 
 ---
 ### Movies
-![image info](./img/movie1.png)
+![image info](./img/movie1.PNG)
 
-![image info](./img/movie2.png)
+![image info](./img/movie2.PNG)
 
 ---
 ### Review
 Los botones de 'consultar detalle' o 'ver reseña' redirigen a esta vista.
 
 En esta parte podemos ver una breve sinopsis y reseña.
-![image info](./img/review1.png)
+![image info](./img/review1.PNG)
 Aquí se puede observar la galería de escenas.
-![image info](./img/review2.png)
+![image info](./img/review2.PNG)
 También contamos con el trailer correspondiente.
-![image info](./img/review3.png)
+![image info](./img/review3.PNG)
 Aquí se observan los cines en los que podemos encontrar este contenido.
-![image info](./img/review4.png)
+![image info](./img/review4.PNG)
 Por último vemos la sección de comentarios de los usuarios, correspondienes a la serie o película.
-![image info](./img/review5.png)
+![image info](./img/review5.PNG)
 
 ---
 > ### Notas:
 * Solo las pelúclas o series que se encuntran en las sección de featured (Sabrina, Daredevil, Kimetsu no Yaiba, Stranger Things, The Mandalorian) de la página de movies cuentan con una galería completa. Esto con el fin de no saturar los assets.
-  
 
 
