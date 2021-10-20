@@ -57,7 +57,7 @@ $(document).ready(function () {
 
 
     function openReviewTab(id){
-        window.open(`../review.html?id=${id}`,"_self")
+        window.open(`/review.html?id=${id}`,"_self")
     }
 
     selectionsMenu.innerHTML += createSelectionRow("NUEVOS LANZAMIENTOS", [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
@@ -105,7 +105,7 @@ $(document).ready(function () {
     })
 
     $(".navbar-logo").click(function(){
-        window.open(`../index.html`,"_self");
+        window.open(`/index.html`,"_self");
     })
 
 })
