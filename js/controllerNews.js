@@ -124,7 +124,7 @@ $(document).ready(function () {
     }
 
     $(".navbar-logo").click(function(){
-        window.open(`../index.html`,"_self");
+        window.open(`index.html`,"_self");
     })
 
 })

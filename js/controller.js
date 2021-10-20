@@ -90,7 +90,7 @@ $(document).ready(function () {
         item.addEventListener("click", () => {
             sinopsisModalTitle.innerHTML = data[item.getAttribute('data-id-item')].title;
             sinopsisModalImg.style.backgroundColor = "#F8981E";
-            sinopsisModalImg.style.background = `linear-gradient(to top, rgba(0,0,0,0), #222222), linear-gradient(to bottom, rgba(0,0,0,0), #222222), url('../${data[item.getAttribute('data-id-item')].maskImg}')`;
+            sinopsisModalImg.style.background = `linear-gradient(to top, rgba(0,0,0,0), #222222), linear-gradient(to bottom, rgba(0,0,0,0), #222222), url('${data[item.getAttribute('data-id-item')].maskImg}')`;
             sinopsisModalImg.style.backgroundRepeat = 'no-repeat';
             sinopsisModalImg.style.backgroundSize = 'cover';
             sinopsisModalDesc.innerHTML = data[item.getAttribute('data-id-item')].desc;
@@ -105,7 +105,7 @@ $(document).ready(function () {
     })
 
     $(".navbar-logo").click(function(){
-        window.open(`../index.html`,"_self");
+        window.open(`index.html`,"_self");
     })
 
 })
