@@ -82,4 +82,8 @@ Aquí se observan los cines en los que podemos encontrar este contenido.
 Por último vemos la sección de comentarios de los usuarios, correspondienes a la serie o película.
 ![image info](./img/review5.png)
 
+---
+> ### Notas:
+* Solo las pelúclas o series que se encuntran en las sección de featured (Sabrina, Daredevil, Kimetsu no Yaiba, Stranger Things, The Mandalorian) de la página de movies cuentan con una galería completa.
+
 
