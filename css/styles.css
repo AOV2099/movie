@@ -269,4 +269,23 @@ hr {
 .news-img {
   border: 3px solid #F8981E;
 }
+
+.img-other-news {
+  width: 100%;
+  height: 100%;
+  max-height: 18vh;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.img-other-news:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.navbar-logo {
+  cursor: pointer;
+}
 /*# sourceMappingURL=styles.css.map */
