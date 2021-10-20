@@ -19,10 +19,6 @@ body::-webkit-scrollbar-track {
   border-width: 0px;
 }
 
-.btn-primary {
-  background-color: #F8981E;
-}
-
 a {
   color: #F8981E;
 }
@@ -287,5 +283,13 @@ hr {
 
 .navbar-logo {
   cursor: pointer;
+}
+
+.btn-primary:focus {
+  background-color: #ffdb65;
+  border-color: #ffdb65;
+  -webkit-box-shadow: 0 0 0 0.25rem #F8981E;
+          box-shadow: 0 0 0 0.25rem #F8981E;
+  color: #000;
 }
 /*# sourceMappingURL=styles.css.map */
