@@ -120,7 +120,7 @@ $(document).ready(function () {
 
 
     function openReviewTab(id){
-        window.open(`../review.html?id=${id}`,"_self")
+        window.open(`review.html?id=${id}`,"_self")
     }
 
     $(".navbar-logo").click(function(){
