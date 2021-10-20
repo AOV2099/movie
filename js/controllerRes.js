@@ -48,7 +48,7 @@ $(document).ready(function () {
     const galleryItems = document.querySelectorAll(".gallery-item");
     galleryItems.forEach((item, i) => {
         item.addEventListener("click", () => {
-            galModalImg.innerHTML = `<img style="width: 100%;" src="../assets/img/gallery/${movieId}/${i}.jpg" alt="">`;
+            galModalImg.innerHTML = `<img style="width: 100%;" src="/assets/img/gallery/${movieId}/${i}.jpg" alt="">`;
             galleryModal.show();
         });
     });

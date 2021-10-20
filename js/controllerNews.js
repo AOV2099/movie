@@ -15,15 +15,15 @@ $(document).ready(function () {
     const btnMovieReviewModal = $('#btn-review-modal');
 
 
-    divOtherNews.innerHTML += addOtherNew('../assets/img/gallery/0/12.jpg', 'STRANGER THINGS', 'Nueva temporada en pausa.');
-    divOtherNews.innerHTML += addOtherNew('../assets/img/gallery/3/12.jpg', 'SABRINA CANCELADA', 'El peor error de Netflix?');
-    divOtherNews.innerHTML += addOtherNew('../assets/img/gallery/6/12.jpg', 'THE MANDALORIAN', 'Luke vuelve para salvar el día.');
-    divOtherNews.innerHTML += addOtherNew('../assets/img/gallery/8/0.jpg', 'KIMETSU NO YAIBA', 'No te subas al tren, Rengoku :(');
+    divOtherNews.innerHTML += addOtherNew('assets/img/gallery/0/12.jpg', 'STRANGER THINGS', 'Nueva temporada en pausa.');
+    divOtherNews.innerHTML += addOtherNew('assets/img/gallery/3/12.jpg', 'SABRINA CANCELADA', 'El peor error de Netflix?');
+    divOtherNews.innerHTML += addOtherNew('assets/img/gallery/6/12.jpg', 'THE MANDALORIAN', 'Luke vuelve para salvar el día.');
+    divOtherNews.innerHTML += addOtherNew('assets/img/gallery/8/0.jpg', 'KIMETSU NO YAIBA', 'No te subas al tren, Rengoku :(');
 
-    divOtherNews.innerHTML += addOtherNew('../assets/img/gallery/42/3.jpg', 'DAREDEVIL', 'Ya veremos, dijo el ciego.');
-    divOtherNews.innerHTML += addOtherNew('../assets/img/gallery/0/3.jpg', 'STRANGER THINGS', 'Los chicos se toman un tiempo fuera.');
-    divOtherNews.innerHTML += addOtherNew('../assets/img/gallery/8/10.jpg', 'MICHAEL JACKSON', 'Hace cameo en famoso anime.');
-    divOtherNews.innerHTML += addOtherNew('../assets/img/gallery/3/3.jpg', 'SABRINA HABLA', 'Se casará con el programador de esto.');
+    divOtherNews.innerHTML += addOtherNew('assets/img/gallery/42/3.jpg', 'DAREDEVIL', 'Ya veremos, dijo el ciego.');
+    divOtherNews.innerHTML += addOtherNew('assets/img/gallery/0/3.jpg', 'STRANGER THINGS', 'Los chicos se toman un tiempo fuera.');
+    divOtherNews.innerHTML += addOtherNew('assets/img/gallery/8/10.jpg', 'MICHAEL JACKSON', 'Hace cameo en famoso anime.');
+    divOtherNews.innerHTML += addOtherNew('assets/img/gallery/3/3.jpg', 'SABRINA HABLA', 'Se casará con el programador de esto.');
 
 
 
